@@ -1,0 +1,5 @@
+#!/bin/bash
+
+portkill () {
+	sudo kill $(sudo lsof -t -i:$1)  
+}
