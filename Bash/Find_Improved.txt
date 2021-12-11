@@ -1,0 +1,1 @@
+Find() { find / -type  -name  2> /dev/null; }
